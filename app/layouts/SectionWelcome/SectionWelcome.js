@@ -58,7 +58,7 @@ export const SectionWelcome = () => (
         <Anchor
           light
           icon={{ name: 'twitter' }}
-          href="https://twitter.com/@reactackle"
+          href="https://twitter.com/@bcrmbs"
         >
           @reactackle
         </Anchor>

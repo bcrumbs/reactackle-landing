@@ -16,7 +16,6 @@ export const SocialItemStyled = styled.a`
   padding: ${baseModule(3)}px;
   cursor: pointer;
   flex-grow: 1;
-  border-radius: 5px;
   ${transition('background-color, border-radius')}
   
   &:hover,

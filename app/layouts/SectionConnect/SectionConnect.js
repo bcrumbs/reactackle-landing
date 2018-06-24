@@ -31,7 +31,7 @@ export const SectionConnect = () => (
             image={icons.logoTwitter}
             title="Twitter"
             description="Check our latest news"
-            href="https://twitter.com/@reactackle"
+            href="https://twitter.com/@bcrmbs"
           />
           <SocialItem
             image={icons.logoSlack}
