@@ -15,9 +15,10 @@ export const HeaderStyled = styled.div`
   color: ${textColorMedium};
   font-weight: ${fontWeightSemibold};
   font-size: ${fontSizeBody}px;
-  line-height: 1.7;
+  padding-top: 0.3em;
+  line-height: 1;
   margin-bottom: ${baseModule(2)}px;
-  
+
   ${media(constants.breakpoint)`
     max-width: 20em;
     text-align: right;

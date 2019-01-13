@@ -18,17 +18,16 @@ import { FooterLinksSeparatorStyled } from './styles/FooterLinksSeparatorStyled'
 
 export const SectionWelcome = () => (
   <SectionWelcomeStyled>
-    <Section id='section-welcome' bgImage={scrollBg} boxed windowHeight>
+    <Section id="section-welcome" boxed windowHeight>
       <SectionContentStyled>
-        <Display
-          level={4}
-          dashed
-          colorScheme="light"
-        >
+        <Display level={4} dashed colorScheme="light">
           Reactackle
         </Display>
         <OffsetBoxStyled>
-          <Lead>Open-source components library built with React and Styled-Components.</Lead>
+          <Lead>
+            Open-source components library built with React and
+            Styled-Components.
+          </Lead>
           <ButtonRowStyled>
             <Button
               text="Documentation"
@@ -58,7 +57,7 @@ export const SectionWelcome = () => (
           // icon={{ name: 'twitter' }}
           href="https://twitter.com/@bcrmbs"
         >
-          @reactackle
+          @bcrmbs
         </Anchor>
       </SectionFooterStyled>
     </Section>

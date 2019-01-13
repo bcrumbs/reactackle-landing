@@ -14,13 +14,7 @@ export const SocialItemStyled = styled.a`
   padding: ${baseModule(3)}px;
   cursor: pointer;
   flex-grow: 1;
-  ${transition('background-color, border-radius')}
-  
-  &:hover,
-  &:focus {
-    background-color: rgba(255, 255, 255, 0.2);
-  }
-  
+
   &,
   &:visited {
     text-decoration: none;
