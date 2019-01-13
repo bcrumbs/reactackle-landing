@@ -1,7 +1,3 @@
-/**
- * @author Ekaterina Marova
- */
-
 import React from 'react';
 import { Section, SectionContent } from '../../components/Section/Section';
 import { HeadingGroup } from '../../components/HeadingGroup/HeadingGroup';
@@ -13,28 +9,27 @@ import { SocialItemsStyles } from './styles/SocialItemsStyles';
 
 export const SectionConnect = () => (
   <SectionConnectStyled>
-    <Section id='section-connect' boxed>
+    <Section id="section-connect" boxed>
       <SectionContent>
         <HeadingGroup align="center">
-          <Display level={3} colorScheme="light">Talk to us</Display>
+          <Display level={3} colorScheme="light">
+            Talk to us
+          </Display>
         </HeadingGroup>
         <SocialItemsStyles>
           <SocialItem
-            // @netmenya
             image={icons.logoGithub}
             title="GitHub"
             description="Report a bug or open an issue"
             href="https://github.com/bcrumbs/reactackle"
           />
           <SocialItem
-            // @netmenya
             image={icons.logoTwitter}
             title="Twitter"
             description="Check our latest news"
             href="https://twitter.com/@bcrmbs"
           />
           <SocialItem
-            // @netmenya
             image={icons.logoSlack}
             title="Slack"
             description="Keep in touch with our team"

@@ -1,9 +1,6 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
-import {
-  fontSizeTitle,
-  baseModule,
-} from '../../../../styles/themeSelectors';
+import { fontSizeTitle, baseModule } from '../../../../styles/themeSelectors';
 
 /** STYLES */
 export const ColorTileContentStyled = styled.div`

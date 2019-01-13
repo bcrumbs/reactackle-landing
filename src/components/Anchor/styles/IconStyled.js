@@ -1,10 +1,6 @@
 import styled from 'styled-components';
 
-import {
-  baseModule,
-  radiusDefault,
-  colorDarkBlue,
-} from '../../../styles/themeSelectors';
+import { baseModule } from '../../../styles/themeSelectors';
 
 const iconSize = 24;
 

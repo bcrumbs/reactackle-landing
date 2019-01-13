@@ -1,7 +1,3 @@
-/**
- * @author Ekaterina Marova
- */
-
 import styled, { css } from 'styled-components';
 import PropTypes from 'prop-types';
 import { media, transition } from 'reactackle';
@@ -12,7 +8,7 @@ const propTypes = {
   /* Level can be any integer value from 1 to 4 */
   level: PropTypes.number,
   dashed: PropTypes.bool,
-  colorScheme: PropTypes.oneOf([ 'dark', 'light' ]),
+  colorScheme: PropTypes.oneOf(['dark', 'light']),
 };
 
 const defaultProps = {
@@ -25,46 +21,49 @@ const defaultProps = {
 const levelProp = ({ level, colorScheme }) => {
   const obj = displayDefaults.level[level].breakpoints;
 
-  const scale = obj.map(item => css`
-    ${media(item.breakpoint)`
+  const scale = obj.map(
+    item => css`
+      ${media(item.breakpoint)`
       font-size: ${item.fontSize}px;
       font-weight: ${item.fontWeight};
       color: ${item.color[colorScheme]};
     `}
-  `);
-  
+    `,
+  );
+
   return css`
     font-size: ${displayDefaults.level[level].fontSize}px;
     font-weight: ${displayDefaults.level[level].fontWeight};
     color: ${displayDefaults.level[level].color[colorScheme]};
 
-    ${scale}  
+    ${scale}
   `;
 };
 
-const dashed = ({ dashed, colorScheme, level }) => dashed
-  ? css`
-    position: relative;
-    
-    &::after {
-      content: '';
-      position: absolute;
-      display: block;
-      height: 4px;
-      width: 60px;
-      background-color: ${displayDefaults.level[level].color[colorScheme]};
-      left: 0;
-      bottom: -${baseModule(1)}px;
-    }
-    
-    ${media('65em')`
+const dashed = ({ dashed, colorScheme, level }) =>
+  dashed
+    ? css`
+        position: relative;
+
+        &::after {
+          content: '';
+          position: absolute;
+          display: block;
+          height: 4px;
+          width: 60px;
+          background-color: ${displayDefaults.level[level].color[colorScheme]};
+          left: 0;
+          bottom: -${baseModule(1)}px;
+        }
+
+        ${media('65em')`
       &::after {      
         height: 8px;
         width: 100px;
       }
     `}
-  `
-  : '';
+      `
+    : '';
 
 /** STYLES */
 export const DisplayStyled = styled.h2`

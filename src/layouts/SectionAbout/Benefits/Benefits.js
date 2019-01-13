@@ -1,9 +1,5 @@
-/**
- * @author Ekaterina Marova
- */
-
 import React from 'react';
-import { FlexRegion, Icon } from 'reactackle';
+import { FlexRegion } from 'reactackle';
 
 import {
   DataColumn,
@@ -37,7 +33,9 @@ export const Benefits = () => (
     <ColorTile bgColor="primary">
       <FlexRegion spread>
         <ColorTileTitle>Growing library</ColorTileTitle>
-        <ColorTileContent>20 components are already done and more than 40 are in the queue.</ColorTileContent>
+        <ColorTileContent>
+          20 components are already done and more than 40 are in the queue.
+        </ColorTileContent>
       </FlexRegion>
       <ColorTileActionsRow>
         <ColorTileAnchor href="https://github.com/bcrumbs/reactackle">
@@ -64,10 +62,11 @@ export const Benefits = () => (
         </DataColumnsWrapper>
       </BenefitsWrapperStyled>
 
-      <TextGroup
-        header="Browser support"
-      >
-        <BodyParagraph>At present we aim to support the last two versions of the following browsers: Chrome, Edge, Firefox, Safari, Opera.</BodyParagraph>
+      <TextGroup header="Browser support">
+        <BodyParagraph>
+          At present we aim to support the last two versions of the following
+          browsers: Chrome, Edge, Firefox, Safari, Opera.
+        </BodyParagraph>
       </TextGroup>
     </ColorTile>
   </BenefitsBoxStyled>

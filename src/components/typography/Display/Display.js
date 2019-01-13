@@ -1,7 +1,3 @@
-/**
- * @author Ekaterina Marova
- */
-
 import React from 'react';
 import PropTypes from 'prop-types';
 import { DisplayStyled } from './styles/DisplayStyled';
@@ -10,7 +6,7 @@ const propTypes = {
   /* Level can be any integer value from 1 to 4 */
   level: PropTypes.number,
   dashed: PropTypes.bool,
-  colorScheme: PropTypes.oneOf([ 'dark', 'light' ]),
+  colorScheme: PropTypes.oneOf(['dark', 'light']),
 };
 
 const defaultProps = {

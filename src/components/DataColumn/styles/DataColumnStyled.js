@@ -1,8 +1,4 @@
-/**
- * @author Ekaterina Marova
- */
-
-import styled from 'styled-components'
+import styled from 'styled-components';
 import constants from './constants';
 
 export const DataColumnStyled = styled.div`

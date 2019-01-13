@@ -1,7 +1,3 @@
-/**
- * @author Ekaterina Marova
- */
-
 import { baseModule } from '../../../styles/themeSelectors';
 
 export default {

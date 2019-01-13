@@ -1,15 +1,5 @@
-/**
- * @author Ekaterina Marova
- */
-
-
 import styled from 'styled-components';
-
-import {
-  baseModule,
-  fontSizeBody,
-  colorWhite,
-} from '../../../styles/themeSelectors';
+import { fontSizeBody, colorWhite } from '../../../styles/themeSelectors';
 
 export const DescriptionStyled = styled.div`
   font-size: ${fontSizeBody}px;

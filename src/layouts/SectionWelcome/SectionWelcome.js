@@ -1,20 +1,14 @@
-/**
- * @author Ekaterina Marova
- */
-
 import React from 'react';
-import { Button, FlexRegion } from 'reactackle';
+import { Button } from 'reactackle';
 import { Anchor } from '../../components/Anchor/Anchor';
 import { Section } from '../../components/Section/Section';
 import { Display, Lead } from '../../components/typography';
-import scrollBg from '../../assets/scroll-bg_welcome.svg';
 import { SectionWelcomeStyled } from './styles/SectionWelcomeStyled';
 import { SectionContentStyled } from './styles/SectionContentStyled';
 import { OffsetBoxStyled } from './styles/OffsetBoxStyled';
 import { CodeWrapperStyled } from './styles/CodeWrapperStyled';
 import { ButtonRowStyled } from './styles/ButtonRowStyled';
 import { SectionFooterStyled } from './styles/SectionFooterStyled';
-import { FooterLinksSeparatorStyled } from './styles/FooterLinksSeparatorStyled';
 
 export const SectionWelcome = () => (
   <SectionWelcomeStyled>

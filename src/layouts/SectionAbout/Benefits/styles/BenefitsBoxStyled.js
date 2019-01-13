@@ -1,7 +1,3 @@
-/**
- * @author Ekaterina Marova
- */
-
 import styled, { css } from 'styled-components';
 import { media } from 'reactackle';
 

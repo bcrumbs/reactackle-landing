@@ -1,14 +1,8 @@
-/**
- * @author Ekaterina Marova
- */
-
 import React from 'react';
 import { DataColumnStyled } from './styles/DataColumnStyled';
 
 export const DataColumn = props => (
-  <DataColumnStyled>
-    {props.children}
-  </DataColumnStyled>
+  <DataColumnStyled>{props.children}</DataColumnStyled>
 );
 
 DataColumn.displayName = 'DataColumn';

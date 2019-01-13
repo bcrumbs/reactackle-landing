@@ -1,10 +1,5 @@
-/**
- * @author Ekaterina Marova
- */
-
 import styled from 'styled-components';
 import {
-  baseModule,
   fontSizeBody2,
   fontWeightBold,
   colorSecondary,

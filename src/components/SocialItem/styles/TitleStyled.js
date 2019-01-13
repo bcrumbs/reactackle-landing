@@ -1,10 +1,6 @@
 import styled from 'styled-components';
 
-import {
-  baseModule,
-  fontSizeHeadline,
-  colorWhite,
-} from '../../../styles/themeSelectors';
+import { baseModule, colorWhite } from '../../../styles/themeSelectors';
 
 export const TitleStyled = styled.div`
   font-size: 1.25em;

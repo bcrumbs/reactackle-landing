@@ -1,9 +1,4 @@
-/**
- * @author Ekaterina Marova
- */
-
 import styled from 'styled-components';
-import { transition } from 'reactackle';
 import { baseModule } from '../../../styles/themeSelectors';
 
 export const SocialItemStyled = styled.a`

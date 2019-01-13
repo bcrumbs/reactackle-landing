@@ -1,11 +1,5 @@
-/**
- * @author Ekaterina Marova
- */
-
-import styled from 'styled-components'
-import {
-  fontSizeBody,
-} from '../../../../styles/themeSelectors';
+import styled from 'styled-components';
+import { fontSizeBody } from '../../../../styles/themeSelectors';
 
 export const ColumnDescriptionStyled = styled.div`
   font-size: ${fontSizeBody}px;
