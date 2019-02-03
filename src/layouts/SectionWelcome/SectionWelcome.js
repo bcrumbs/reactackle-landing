@@ -3,6 +3,8 @@ import { Button } from 'reactackle';
 import { Anchor } from '../../components/Anchor/Anchor';
 import { Section } from '../../components/Section/Section';
 import { Display, Lead } from '../../components/typography';
+import { IconGithub } from '../../components/Icon/IconGithub';
+import { IconTwitter } from '../../components/Icon/IconTwitter';
 import { SectionWelcomeStyled } from './styles/SectionWelcomeStyled';
 import { SectionContentStyled } from './styles/SectionContentStyled';
 import { OffsetBoxStyled } from './styles/OffsetBoxStyled';
@@ -35,7 +37,7 @@ export const SectionWelcome = () => (
               text="GitHub"
               size="large"
               colorScheme="flatLight"
-              // icon={{ name: "github" }}
+              icon={<IconGithub />}
               outlined
               href="https://github.com/bcrumbs/reactackle"
             />
@@ -46,11 +48,7 @@ export const SectionWelcome = () => (
       </SectionContentStyled>
 
       <SectionFooterStyled>
-        <Anchor
-          light
-          // icon={{ name: 'twitter' }}
-          href="https://twitter.com/@bcrmbs"
-        >
+        <Anchor light href="https://twitter.com/@bcrmbs" icon={<IconTwitter />}>
           @bcrmbs
         </Anchor>
       </SectionFooterStyled>
